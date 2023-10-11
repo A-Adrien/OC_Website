@@ -12,6 +12,7 @@ a {
 .gradient_link a {
 	color: white;
 	background: linear-gradient(#8E86B5, #ACAEED);
+	border-radius: 50px;
 }
 
 em {
@@ -40,6 +41,11 @@ ul {
 	font-size: 1em;
 	font-family: 'Manrope', sans-serif;
 	color: #F9F8FF;
+}
+
+.a_propos {
+	border-right: 1px solid #8e86b5;
+	border-bottom: 1px solid #8e86b5;
 }
 
 .header, .footer {
