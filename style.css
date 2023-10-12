@@ -48,7 +48,7 @@ ul {
 	border-bottom: 1px solid #8e86b5;
 }
 
-.header, .footer {
+header, footer {
 	background-color: white;
 }
 
@@ -63,6 +63,6 @@ a:hover {
 	text-decoration: none;
 }
 
-.header img:hover, .footer img:hover {
+header img:hover, footer img:hover {
 	opacity: 0.5;
 }
