@@ -51,3 +51,18 @@ ul {
 .header, .footer {
 	background-color: white;
 }
+
+/*-----DYNAMIC STYLES-----*/
+
+a:hover {
+	text-decoration: underline;
+}
+
+.gradient_link a:hover {
+	background: linear-gradient(#696484, #8788BA);
+	text-decoration: none;
+}
+
+.header img:hover, .footer img:hover {
+	opacity: 0.5;
+}
