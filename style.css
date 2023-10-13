@@ -36,24 +36,42 @@ p {
 }
 
 ul {
-	font-size: 1em;
+	font-size: 1.1em;
 	font-family: 'Manrope', sans-serif;
 	color: #F9F8FF;
+	padding-top: 50px;
 }
 
 header, footer {
 	background-color: white;
+	padding: 20px 50px;
+}
+
+section {
+	padding: 80px;
+}
+
+p ~ h2 {
+	padding-top: 30px;
 }
 
 .a_propos {
 	border-right: 1px solid #8e86b5;
 	border-bottom: 1px solid #8e86b5;
+	padding: 50px;
+}
+
+.sec_a_propos {
+	width: 950px;
+	margin: auto;
 }
 
 .gradient_link {
 	color: white;
 	border-radius: 50px;
 	background: linear-gradient(#8e86b5, #acaeed);
+	padding: 20px 30px;
+}
 
 /*-----DYNAMIC STYLES-----*/
 
@@ -61,7 +79,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.gradient_link a:hover {
+.gradient_link:hover {
 	background: linear-gradient(#696484, #8788BA);
 	text-decoration: none;
 }
