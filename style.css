@@ -40,6 +40,58 @@ footer {
   padding: 20px 50px;
 }
 
+header nav, footer nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav nav{
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+}
+
+footer nav nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100px;
+}
+
+.presentation {
+	display: flex;
+	justify-content: center;
+}
+
+.presentation div {
+	width: 533px;
+	align-self: center;
+}
+
+.section-photos {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-photos h2 {
+	color: black;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.liste-projet {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+}
+
+ul + ul {
+	margin-top: 6px;
+}
+
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
