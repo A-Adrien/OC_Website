@@ -40,4 +40,57 @@
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
+  margin-bottom: 45px;
+}
+
+form {
+    width: 1000px;
+    margin: auto;
+    color: white;
+    font-size: 1.1em;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-coordonnees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fieldset-message {
+    margin-bottom: 25px;
+}
+
+input, textarea {
+    padding: 13px;
+    border-radius: 5px;
+}
+
+input {
+    width: 445px;
+}
+
+textarea {
+    resize: none;
+}
+
+label, input, textarea {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.div-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    width: 200px;
 }
