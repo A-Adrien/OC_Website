@@ -7,6 +7,7 @@
 
 .carre-contenu h2 {
   margin-top: 30px;
+  text-align: center;
 }
 
 .carre-contenu ul {
@@ -18,6 +19,42 @@
 }
 
 .a-propos-main {
-  width: 50%;
+  width: 100%;
   margin: auto;
+}
+
+.section-a-propos {
+    width: 50%;
+    margin: auto;
+}
+
+.section-a-propos h1 {
+    text-align: center;
+}
+
+table {
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+td, th {
+    border: 1px solid #8e86b5;
+}
+
+td {
+    padding: 80px;
+}
+
+th {
+    padding: 15px;
 }
